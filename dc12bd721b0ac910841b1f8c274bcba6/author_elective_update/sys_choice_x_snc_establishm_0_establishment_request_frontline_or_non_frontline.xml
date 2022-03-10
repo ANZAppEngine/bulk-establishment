@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="frontline_or_non_frontline" table="x_snc_establishm_0_establishment_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>frontline_or_non_frontline</element>
+            <name>x_snc_establishm_0_establishment_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 03:24:30</sys_created_on>
+            <sys_id>e055f9b61b0ac910841b1f8c274bcbd5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>frontline_or_non_frontline</sys_name>
+            <sys_package display_value="Establishment Request" source="x_snc_establishm_0">dc12bd721b0ac910841b1f8c274bcba6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Establishment Request">dc12bd721b0ac910841b1f8c274bcba6</sys_scope>
+            <sys_update_name>sys_choice_x_snc_establishm_0_establishment_request_frontline_or_non_frontline</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 03:24:30</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>frontline_or_non_frontline</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Frontline</label>
+            <language>en</language>
+            <name>x_snc_establishm_0_establishment_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 03:24:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6855f9b61b0ac910841b1f8c274bcbd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 03:24:30</sys_updated_on>
+            <value>frontline</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>frontline_or_non_frontline</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non-frontline</label>
+            <language>en</language>
+            <name>x_snc_establishm_0_establishment_request</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 03:24:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6855f9b61b0ac910841b1f8c274bcbd7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 03:24:30</sys_updated_on>
+            <value>non_frontline</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

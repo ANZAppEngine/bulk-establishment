@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Establishment Request" max_length="40" name="x_snc_establishm_0_establishment_request" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="ANZSCO code" max_length="40" name="anzsco_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Belongs to org unit" max_length="40" name="belongs_to_org_unit" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Controlling area" max_length="40" name="controlling_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Cost centre" max_length="40" name="cost_centre" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date to be created" max_length="40" name="date_to_be_created" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee group" max_length="400" name="employee_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Field check" max_length="40" name="field_check" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="frontline" label="Frontline or non-frontline" max_length="40" name="frontline_or_non_frontline" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Frontline" value="frontline"/>
+                <element inactive_on_update="false" label="Non-frontline" value="non_frontline"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Grade and classification" max_length="400" name="grade_and_classification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Internal order" max_length="40" name="internal_order" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other roles reporting into this role?" max_length="40" name="other_roles_reporting_into_this_role" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PCAT code" max_length="40" name="pcat_code" type="string"/>
+        <element label="Percentage" max_length="15" name="percentage" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Personnel area" max_length="400" name="personnel_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Personnel sub area" max_length="400" name="personnel_sub_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reports to role" max_length="40" name="reports_to_role" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Role ID" max_length="40" name="role_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Role title" max_length="400" name="role_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Temporary role end date" max_length="40" name="temporary_role_end_date" type="glide_date"/>
+        <element label="Total hours per week" max_length="15" name="total_hours_per_week" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new" display="true" label="Type of change" max_length="40" name="type_of_change" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Amend" value="amend"/>
+                <element inactive_on_update="false" label="Delimit" value="delimit"/>
+                <element inactive_on_update="false" label="New" value="new"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="WBS Element" max_length="40" name="wbs_element" type="string"/>
+    </element>
+</database>

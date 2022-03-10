@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bulk Establishment Request" max_length="40" name="x_snc_establishm_0_bulk_establishment_request" sizeclass="1" type="collection">
+        <element label="Due date" max_length="40" name="due_date" type="glide_date"/>
+        <element label="File" max_length="40" name="file" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Reference" max_length="4000" name="reference" type="string"/>
+    </element>
+</database>
