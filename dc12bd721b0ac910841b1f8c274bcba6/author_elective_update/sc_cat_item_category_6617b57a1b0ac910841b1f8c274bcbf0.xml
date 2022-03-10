@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Bulk Establishment Request">dfb67d3a1b0ac910841b1f8c274bcb13</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-09 03:32:18</sys_created_on>
+        <sys_id>6617b57a1b0ac910841b1f8c274bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Bulk Establishment Request</sys_name>
+        <sys_package display_value="Establishment Request" source="x_snc_establishm_0">dc12bd721b0ac910841b1f8c274bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Establishment Request">dc12bd721b0ac910841b1f8c274bcba6</sys_scope>
+        <sys_update_name>sc_cat_item_category_6617b57a1b0ac910841b1f8c274bcbf0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-09 03:32:18</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Establishment Request">dc12bd721b0ac910841b1f8c274bcba6</application>
+        <file_path/>
+        <instance_id>18a4fa9fdb53701052cec59705961982</instance_id>
+        <instance_name>appenginedemo</instance_name>
+        <name>sc_cat_item_category_6617b57a1b0ac910841b1f8c274bcbf0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Bulk Establishment Request">dfb67d3a1b0ac910841b1f8c274bcb13</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-09 03:32:18</sys_created_on><sys_id>6617b57a1b0ac910841b1f8c274bcbf0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.Bulk Establishment Request</sys_name><sys_package display_value="Establishment Request" source="x_snc_establishm_0">dc12bd721b0ac910841b1f8c274bcba6</sys_package><sys_policy/><sys_scope display_value="Establishment Request">dc12bd721b0ac910841b1f8c274bcba6</sys_scope><sys_update_name>sc_cat_item_category_6617b57a1b0ac910841b1f8c274bcbf0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-09 03:32:18</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>310684988</payload_hash>
+        <record_name>Can We Help You?.Bulk Establishment Request</record_name>
+        <reverted_from/>
+        <source>1012bd721b0ac910841b1f8c274bcbaa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-09 03:32:18</sys_created_on>
+        <sys_id>2e17b57a1b0ac910841b1f8c274bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f6cbc0f960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-09 03:32:18</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>6217b57aa00ac910541384cbe18e53f4</update_guid>
+        <update_guid_history>6217b57aa00ac910541384cbe18e53f4:310684988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Bulk Establishment Request">3a17f57a1b0ac910841b1f8c274bcb0a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-09 03:32:18</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>5564f83cd7ca4688b444b271e9a20f41</sys_id>
+        <sys_metadata>6617b57a1b0ac910841b1f8c274bcbf0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Bulk Establishment Request</sys_name>
+        <sys_package display_value="Establishment Request" source="x_snc_establishm_0">dc12bd721b0ac910841b1f8c274bcba6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Establishment Request">dc12bd721b0ac910841b1f8c274bcba6</sys_scope>
+        <sys_scope_delete display_value="">de0c9f149c1f42028d3abfe818a457a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_6617b57a1b0ac910841b1f8c274bcbf0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_6617b57a1b0ac910841b1f8c274bcbf0">2e17b57a1b0ac910841b1f8c274bcbf4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-09 03:32:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

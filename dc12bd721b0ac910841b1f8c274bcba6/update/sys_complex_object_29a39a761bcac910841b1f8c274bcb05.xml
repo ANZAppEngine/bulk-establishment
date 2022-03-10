@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD65a39a76afcac91084d5e483a2570505</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>dc12bd721b0ac910841b1f8c274bcba6</scope_name>
+        <serialized_content>{"FlowDesigner:FD65a39a76afcac91084d5e483a2570505":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD65a39a76afcac91084d5e483a2570505.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"e0df2128-6910-4e03-b8b7-e4bb71f87d63\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"excel_data\",\"mandatory\":\"false\",\"child_name\":\"excel_data_child0\",\"uiUniqueId\":\"2e5fd33c-b913-4630-8db4-b1d3dee227e6\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD65a39a76afcac91084d5e483a2570505\",\"child_label\":\"excel_data_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"ce2b3a2a-fdda-44f5-89c0-005c38cda8ff\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"41b54640-f3a2-456f-8b13-01d3c9b1848f\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-09 05:37:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29a39a761bcac910841b1f8c274bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD65a39a76afcac91084d5e483a2570505</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Establishment Request" source="x_snc_establishm_0">dc12bd721b0ac910841b1f8c274bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Establishment Request">dc12bd721b0ac910841b1f8c274bcba6</sys_scope>
+        <sys_update_name>sys_complex_object_29a39a761bcac910841b1f8c274bcb05</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-09 05:37:01</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

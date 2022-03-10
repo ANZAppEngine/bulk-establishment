@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="pcat_code" label="PCAT code" language="en" table="x_snc_establishm_0_establishment_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>pcat_code</element>
+            <help/>
+            <hint/>
+            <label>PCAT code</label>
+            <language>en</language>
+            <name>x_snc_establishm_0_establishment_request</name>
+            <plural>PCAT codes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-09 03:24:27</sys_created_on>
+            <sys_id>ef45b9b61b0ac910841b1f8c274bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>PCAT code</sys_name>
+            <sys_package display_value="Establishment Request" source="x_snc_establishm_0">dc12bd721b0ac910841b1f8c274bcba6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Establishment Request">dc12bd721b0ac910841b1f8c274bcba6</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_establishm_0_establishment_request_pcat_code_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-09 03:24:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

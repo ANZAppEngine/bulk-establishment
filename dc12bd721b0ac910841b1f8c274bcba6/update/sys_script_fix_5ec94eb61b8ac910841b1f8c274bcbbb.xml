@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>Excel Parser</description>
+        <name>Excel Parser</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[var parser = new sn_impex.GlideExcelParser();
+
+var attachment = new GlideSysAttachment();
+
+// Use the attachment sys_id of an Excel file
+var attachmentStream = attachment.getContentStream("a4ba71321b4ac910841b1f8c274bcb8d");
+
+  var row = [];
+  var temp_row;
+  var clean_data = [];
+
+// Set the source to be parsed
+parser.setSource(attachmentStream);
+
+// Get the worksheet names to be parsed in the Excel document
+var list_sheet_name = parser.getSheetNames();
+
+gs.info(" Sheet Names " + list_sheet_name.join(", "));
+
+// Iterate over each worksheet in the Excel workbook
+for (var i = 0; i < list_sheet_name.length; i++) {
+    gs.info("**************************************************************************************");
+    gs.info("Sheet name:    " + list_sheet_name[i]);
+
+// Set the worksheet name to be parsed
+    parser.setSheetName(list_sheet_name[i]);
+
+// Parse each worksheet set using setSheetName()
+    if (parser.parse()) {
+        //retrieve the column headers
+        var headers = parser.getColumnHeaders();
+        var header1 = headers[0];
+        var header2 = headers[1];
+        var header3 = headers[2];
+
+        //print headers
+        gs.info(header1 + "\t||" + header2 + "\t||" + header3);
+
+        // Iterate over each row in the worksheet
+        while (parser.next()) {
+            temp_row = parser.getRow();
+			row[i] = JSON.stringify(temp_row); 
+			gs.info(row[i]);
+            //print row value for both columns   
+            //gs.info(row[header1] + '\t|| ' + row[header2] + '\t||' + row[header3]);
+			i = i + 1;
+        }
+    } else
+        gs.info(parser.getErrorMessage());
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-09 04:54:55</sys_created_on>
+        <sys_id>5ec94eb61b8ac910841b1f8c274bcbbb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Excel Parser</sys_name>
+        <sys_package display_value="Establishment Request" source="x_snc_establishm_0">dc12bd721b0ac910841b1f8c274bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Establishment Request">dc12bd721b0ac910841b1f8c274bcba6</sys_scope>
+        <sys_update_name>sys_script_fix_5ec94eb61b8ac910841b1f8c274bcbbb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-09 05:04:38</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

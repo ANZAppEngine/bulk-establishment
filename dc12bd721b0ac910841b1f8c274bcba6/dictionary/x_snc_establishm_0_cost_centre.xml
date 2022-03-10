@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Cost Centre" max_length="40" name="x_snc_establishm_0_cost_centre" type="collection">
+        <element display="true" label="Cost Centre" max_length="40" name="cost_centre" type="string"/>
+        <element display="true" label="Description" max_length="40" name="description" type="string"/>
+    </element>
+</database>

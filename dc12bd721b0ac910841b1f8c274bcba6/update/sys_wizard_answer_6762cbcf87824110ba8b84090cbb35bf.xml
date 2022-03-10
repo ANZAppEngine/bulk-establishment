@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Establishment Tasks</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Establishment Tasks</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">8538365b1b133010841b1f8c274bcb45</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-10 03:39:53</sys_created_on>
+        <sys_id>6762cbcf87824110ba8b84090cbb35bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Establishment Tasks</sys_name>
+        <sys_package display_value="Establishment Request" source="x_snc_establishm_0">dc12bd721b0ac910841b1f8c274bcba6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Establishment Request">dc12bd721b0ac910841b1f8c274bcba6</sys_scope>
+        <sys_update_name>sys_wizard_answer_6762cbcf87824110ba8b84090cbb35bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-10 03:39:53</sys_updated_on>
+        <table/>
+        <target_url>x_snc_establishm_0_establishment_tasks.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
