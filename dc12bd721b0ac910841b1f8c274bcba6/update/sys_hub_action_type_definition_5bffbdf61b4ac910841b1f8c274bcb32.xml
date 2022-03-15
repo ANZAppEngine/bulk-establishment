@@ -28,15 +28,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5bffbdf61b4ac910841b1f8c274bcb32</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Parse Attachment</sys_name>
         <sys_overrides/>
         <sys_package display_value="Establishment Request" source="x_snc_establishm_0">dc12bd721b0ac910841b1f8c274bcba6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Establishment Request">dc12bd721b0ac910841b1f8c274bcba6</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_5bffbdf61b4ac910841b1f8c274bcb32</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-10 04:35:09</sys_updated_on>
+        <sys_updated_by>auspost</sys_updated_by>
+        <sys_updated_on>2022-03-13 23:15:30</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -243,10 +243,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-09 04:23:35</sys_created_on>
         <sys_id>35d2823e1b4ac910841b1f8c274bcb04</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Establishment Request">dc12bd721b0ac910841b1f8c274bcba6</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-10 04:35:08</sys_updated_on>
+        <sys_updated_by>auspost</sys_updated_by>
+        <sys_updated_on>2022-03-13 23:15:29</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=35d2823e1b4ac910841b1f8c274bcb04"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -257,9 +257,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-09 04:23:35</sys_created_on>
         <sys_id>35d2823e1b4ac910841b1f8c274bcb11</sys_id>
-        <sys_mod_count>17</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-10 04:35:08</sys_updated_on>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_updated_by>auspost</sys_updated_by>
+        <sys_updated_on>2022-03-13 23:15:29</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 var parser = new sn_impex.GlideExcelParser();
 
@@ -307,8 +307,9 @@ for (var i = 0; i &lt; list_sheet_name.length; i++) {
             var temp_row2 = temp_row[headers[0]];
             for (j=1; j&lt;headers.length; j++) {
               temp_row2 = temp_row2 + ':::' + temp_row[headers[j]];
-              gr.setValue("role_id", "1000");
-              gr.setValue("date_to_be_created", "2022-03-01");
+              
+              //Set values within Establishment Request row from parsed Excel data
+               gr.setValue(headers[j], temp_row[headers[j]]);
               
             }
           clean_data[i] = temp_row2;
